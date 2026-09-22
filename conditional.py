@@ -1,12 +1,21 @@
-# age = int(input("How old are you? "))
+age = int(input("How old are you? "))
 #
-# if age > 17:
-#     print("You are of age!")
-#     print("Here's a copy of GTA6 for you.")
-#
+if age > 17:
+    print("You are of age!")
+    print("Here's a copy of GTA6 for you.")
+    if age > 80:
+        print("You are a teenager!")
+
+
+else:
+    print("False block executing here...")
+    print("False block executing here...")
+
+    print("False block executing here...")
+    #
 # print("Next customer, please!")
 
-# name = print(" tyteorweutort  ")
+# name = print(" type your name  ")
 # print(name)
 # print(type(name))
 

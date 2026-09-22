@@ -1,11 +1,13 @@
 wage= float(input("Hourly Wage:"))
 hours = float(input("Hours Worked:"))
 day= input("Day of the week:").lower()
-if day== "sunday":
-    print(wage*hours*2)
-else:
-    print(wage*hours)
+daily_wages = wage*hours
 
+if day== "sunday":
+    daily_wages = daily_wages*2
+
+print("Daily wages:", daily_wages, "euros")
+print(day+day)
 # number= int(input("Please type in a number: "))
 # if number>100 :
 #     print("The number was greater than one hundred!")
