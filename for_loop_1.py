@@ -19,5 +19,28 @@
 # for step in range(10,4,-1):
 #     print(step)
 
-for i in range (-3):
-    print(i)
+# for i in range (-3,0):  # --> range(0,-3)
+#     print(i)
+
+# while True:  #while user_input > 0:
+#     number = int(input("Please type in a number: "))
+#     if number == -1:
+#         break
+#     while number > 0:
+#         print(number)
+#         number -= 1
+#
+
+alphabet = ("abcdefghijklmnopqrstuvwxyz")
+text = input("Please type in a text: ")
+new_text = ""
+
+for x  in text:
+    print(x)
+    print(alphabet.index(x))
+
+    if alphabet.index(x) + 13> 26:
+        new_index= 26 - alphabet.index(x) + 13
+    else:
+        new_index = alphabet.index(x) + 13
+    print(alphabet[new_index])
