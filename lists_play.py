@@ -1,0 +1,17 @@
+# Please write a program which initialises a list with the values [1, 2, 3, 4, 5].
+numbers = [1, 2, 3, 4, 5]
+print("My initial list is: ", numbers)
+# Then the program should ask the user for an index and a new value,
+while True:
+    user_index = int(input("Enter a number for the index: "))
+    if user_index == -1:
+        break
+    new_value = int(input("Enter the new value: "))
+    # replace the value at the given index, and print the list again.
+    numbers[user_index] = new_value
+    print("New list is:",numbers)
+print("Thank you")
+
+# This should be looped over until the user gives -1 for the index.
+# You can assume all given index values will fall within your list.
+
