@@ -9,7 +9,4 @@ numbers.insert(15,2)
 # numbers2.append(4)
 print(numbers)
 # print(numbers2)
-
-class my_class:
-    def __init__(self,numbers):
-        self.numbers = numbers
+print(dir(numbers))
